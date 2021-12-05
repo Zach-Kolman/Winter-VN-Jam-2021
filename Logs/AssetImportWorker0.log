@@ -137,3 +137,4 @@ Received Import Request.
 Start importing Assets/Readme.asset using Guid(83c2ed844a8c74b779a4c823d16594b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ffd2c44ffeb50c574abb5d0c4453328') in 0.054802 seconds 
   Import took 0.060227 seconds .
 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
