@@ -14,12 +14,14 @@ public class PlayerController : MonoBehaviour
     public CinemachineVirtualCamera curCam;
 
     public GameObject CM;
-    private Transform cmt;
+    public Transform cmt;
 
     public float speed;
     // Start is called before the first frame update
     void Start()
     {
+        curCam = CM.GetComponent<CamManager>().curCam;
+        cmt = curCam.transform;
         cont = gameObject.GetComponent<CharacterController>();
     }
 

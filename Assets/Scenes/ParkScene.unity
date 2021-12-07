@@ -275,7 +275,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 305587288}
-  m_LocalRotation: {x: -0.021347603, y: 0.95803034, z: -0.0740712, w: -0.27610803}
+  m_LocalRotation: {x: -0.013348648, y: 0.9843202, z: -0.08547683, w: -0.1537182}
   m_LocalPosition: {x: -10.8, y: 8.9, z: 28.3}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -393,7 +393,7 @@ GameObject:
   - component: {fileID: 370548994}
   m_Layer: 0
   m_Name: Switcher 2 (2)
-  m_TagString: Untagged
+  m_TagString: debug
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -503,7 +503,7 @@ GameObject:
   - component: {fileID: 381142502}
   m_Layer: 0
   m_Name: Switcher 1 (1)
-  m_TagString: Untagged
+  m_TagString: debug
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -814,7 +814,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1021294601}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -28.59, y: 0, z: 0}
+  m_LocalPosition: {x: -19.86, y: 0, z: 0}
   m_LocalScale: {x: 3.4293, y: 3.4293, z: 3.4293}
   m_Children:
   - {fileID: 987705495}
@@ -839,6 +839,7 @@ MonoBehaviour:
   turnSmoothVelocity: 0.46
   curCam: {fileID: 0}
   CM: {fileID: 1107287457}
+  cmt: {fileID: 0}
   speed: 5
 --- !u!143 &1021294604
 CharacterController:
@@ -1011,7 +1012,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1100974159}
-  m_LocalRotation: {x: -0.06508171, y: 0.8955303, z: -0.13960105, w: -0.41749436}
+  m_LocalRotation: {x: -0.0635283, y: 0.9165322, z: -0.16160268, w: -0.36030182}
   m_LocalPosition: {x: 11.2, y: 20.3, z: 33.4}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -1029,6 +1030,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1107287459}
   - component: {fileID: 1107287458}
+  - component: {fileID: 1107287460}
   m_Layer: 0
   m_Name: Camera Manager
   m_TagString: Untagged
@@ -1052,7 +1054,7 @@ MonoBehaviour:
   - {fileID: 1152576147}
   - {fileID: 1100974160}
   basePriority: 10
-  curCam: {fileID: 0}
+  curCam: {fileID: 1100974160}
 --- !u!4 &1107287459
 Transform:
   m_ObjectHideFlags: 0
@@ -1067,6 +1069,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1107287460
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1107287457}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b1ba000382e7d14fabab77a5368134a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggs: []
+  debugActive: 0
 --- !u!1 &1152576146
 GameObject:
   m_ObjectHideFlags: 0
@@ -1126,7 +1142,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1152576146}
-  m_LocalRotation: {x: 0.05553359, y: 0.9394503, z: -0.1838044, w: 0.28384003}
+  m_LocalRotation: {x: 0.06249822, y: 0.9172699, z: -0.1594341, w: 0.35957015}
   m_LocalPosition: {x: -50.8, y: 20.3, z: 33.4}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -1149,7 +1165,7 @@ GameObject:
   - component: {fileID: 1191641955}
   m_Layer: 0
   m_Name: Switcher 2
-  m_TagString: Untagged
+  m_TagString: debug
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1259,7 +1275,7 @@ GameObject:
   - component: {fileID: 1284745502}
   m_Layer: 0
   m_Name: Switcher 1
-  m_TagString: Untagged
+  m_TagString: debug
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1532,7 +1548,7 @@ GameObject:
   - component: {fileID: 2087298294}
   m_Layer: 0
   m_Name: Switcher 2 (1)
-  m_TagString: Untagged
+  m_TagString: debug
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1771,7 +1787,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2144344164}
-  m_LocalRotation: {x: 0.05553359, y: 0.9394503, z: -0.1838044, w: 0.28384003}
+  m_LocalRotation: {x: 0.06249822, y: 0.9172699, z: -0.1594341, w: 0.35957015}
   m_LocalPosition: {x: -50.8, y: 20.3, z: 33.4}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
