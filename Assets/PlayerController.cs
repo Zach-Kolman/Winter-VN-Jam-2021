@@ -20,8 +20,6 @@ public class PlayerController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        curCam = CM.GetComponent<CamManager>().curCam;
-        cmt = curCam.transform;
         cont = gameObject.GetComponent<CharacterController>();
     }
 
